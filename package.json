@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"xget": "file:"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.36",
+		"vitest": "^3.1.4",
+		"wrangler": "^4.18.0"
+	},
+	"name": "xget",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest"
+	},
+	"version": "0.0.0"
+}
